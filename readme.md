@@ -5,3 +5,5 @@
 - HTML
 - CSS
 - Media queries
+- Google Fonts
+- SVG Patterns

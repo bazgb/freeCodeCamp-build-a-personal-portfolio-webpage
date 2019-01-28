@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
   <title>Personal Portfolio</title>
   <!-- The following style tag is a workaround for a known bug with various challenge's unit tests -->
   <!-- See: https://github.com/freeCodeCamp/testable-projects-fcc/issues/new -->
@@ -17,21 +19,47 @@
     }
   </style>
 </head>
+
 <body>
   <nav id="navbar">
+    <a href="#about" class="nav-link">About</a>
     <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
   </nav>
+
   <section id="welcome-section">
-    <h1>My Portfolio</h1>
+    <h1 id="main-header">My Portfolio</h1>
+    <h2 id="strap-line">Laszlo 'BeastCoder' Jones</h2>
   </section>
+
+  <section id="about">
+    <h3>About (the man, the legend)</h3>
+    <p>"Probably the world's best coder" - Steve Jobs</p>
+    <p>"If I hadn't invented Windows first, he definitely would have beaten me to it" - Bill Gates</p>
+    <p>I'm an amazing coder, who knows all the languages. In fact I've even stopped respondng to any messages from
+      friends or family unless they're formatted as fully standards-compliant JSON.</p>
+    <p>If you need anything built to a world-class standard, then get in touch. I'm happy to take on brand-new
+      projects, and equally happy to jump into existing projects and explain why they're not up to my own high
+      standards yet. But they will be, if you can afford me that is.</p>
+  </section>
+
   <section id="projects">
+    <h3>Projects (works of art that I've produced)</h3>
     <section class="project-tile">
-      <a href="http://www.google.com">Google</a>
+      <a href="http://www.google.com" target="_blank">Google - I wrote most of this. Easy.</a>
+      <a href="http://www.facebook.com" target="_blank">Facebook - I made it, and it was all my idea.</a>
+      <a href="http://amazon.com" target="_blank">Amazon - wouldn't be where they are today without me. They know this, so they gave me
+        free Prime membership FOR LIFE!</a>
+      <a href="http://www.netflix.com" target="_blank">I built Netflix and now I chill with the laydeez.</a>
     </section>
-
-<a href="https://github.com/bazgb" id="profile-link" target="_blank">GitHub</a>
-
   </section>
+
+  <section id="contact">
+    <h3>Contact (how to reach the beast)</h3>
+    <a href="https://github.com/bazgb" id="profile-link" target="_blank">GitHub - the only way to reach a real coder.</a>
+  </section>
+
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
